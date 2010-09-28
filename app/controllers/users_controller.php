@@ -236,4 +236,57 @@ class UsersController extends AppController {
 			$this->redirect(array('action' => 'index'));
 		}
 	}
+	
+	function home(){
+		$this->set('title_for_layout','Restocom');
+	}
+	function comprar(){
+		$this->set('title_for_layout','Restocom');
+		
+		/*var $items= new array();
+		var $subitem= new array();*/
+		$items[0]['claseLi']='item';
+		$items[0]['boolHijo']='false';
+		$items[0]['boolFinal']='false';
+		$items[0]['descripcionItem']='Todos';
+		
+		$items[1]['claseLi']='item';
+		$items[1]['boolHijo']='true';
+		$items[1]['boolFinal']='false';
+		$items[1]['descripcionItem']='Abarrotes';
+		$items[1]['subitem']=array(0=>'Aceite',1=>'Arroz',2=>'Azucar',3=>'Condimentos',4=>'Conservas');
+		
+		$items[2]['claseLi']='item';
+		$items[2]['boolHijo']='false';
+		$items[2]['boolFinal']='false';
+		$items[2]['descripcionItem']='Carniceria';
+		
+		$items[3]['claseLi']='item';
+		$items[3]['boolHijo']='true';
+		$items[3]['boolFinal']='false';
+		$items[3]['descripcionItem']='Frutas y Verduras';
+		
+		$items[3]['subitem']=array(0=>'Frutas', 1=>'Verduras');
+		
+		$items[4]['claseLi']='item';
+		$items[4]['boolHijo']='false';
+		$items[4]['boolFinal']='false';
+		$items[4]['descripcionItem']='Lacteos';
+		
+		$items[5]['claseLi']='item';
+		$items[5]['boolHijo']='true';
+		$items[5]['boolFinal']='false';
+		$items[5]['descripcionItem']='Panaderia';
+		
+		$items[5]['subitem']=array(0=>'Pan Blanco', 1=>'Pan Integral', 2=>'Queques', 3=>'Dulces', 4=>'Tortas', 5=>'Pizzas');
+		
+		$items[6]['claseLi']='pieMenu';
+		$items[6]['boolHijo']='true';
+		$items[6]['boolFinal']='true';
+		$items[6]['descripcionItem']='Vinos y Licores';
+		
+		$items[6]['subitem']=array(0=>'Cervezas', 1=>'Champagne', 2=>'Vinos Tintos', 3=>'Vinos Blancos', 4=>'Vinos Otros', 5=>'Vodka', 6=>'Ron', 7=>'Whisky', 8=>'Otros Licores');
+
+		$this->set('item', $items);
+	}
 }

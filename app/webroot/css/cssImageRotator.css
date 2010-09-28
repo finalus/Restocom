@@ -1,0 +1,80 @@
+IMG.image {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.container {
+	FONT: 10px normal Arial, Helvetica, sans-serif;MARGIN: 0px auto; WIDTH: 700px; OVERFLOW: hidden; float:right;
+}
+#main {
+	FONT: 10px normal Arial, Helvetica, sans-serif;BORDER-BOTTOM: #ccc 1px solid; 
+	BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; 
+	BACKGROUND: #f0f0f0; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 10px
+}
+A {
+	FONT: 10px normal Arial, Helvetica, sans-serif; COLOR: #fff;
+}
+.main_image {
+	FONT: 10px normal Arial, Helvetica, sans-serif;POSITION: relative; WIDTH: 480px; BACKGROUND: #333; FLOAT: left; 
+	HEIGHT: 365px; COLOR: #fff; OVERFLOW: hidden;
+}
+.main_image H2 {
+	FONT: 10px normal Arial, Helvetica, sans-serif;PADDING-BOTTOM: 10px; MARGIN: 0px 0px 5px; PADDING-LEFT: 10px; 
+	PADDING-RIGHT: 10px; FONT-SIZE: 2em; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+.main_image P {
+	FONT: 10px normal Arial, Helvetica, sans-serif;PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.6em; MARGIN: 0px; 
+	PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 1.2em; PADDING-TOP: 10px
+}
+.block SMALL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND: url(icon_calendar.gif) no-repeat 0px center; 
+	FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+.main_image .block SMALL {
+	MARGIN-LEFT: 10px
+}
+.main_image .desc {
+	POSITION: absolute; WIDTH: 100%; BOTTOM: 0px; DISPLAY: none; LEFT: 0px
+}
+.main_image .block {
+	WIDTH: 100%; BACKGROUND: #111; BORDER-TOP: #000 1px solid
+}
+.main_image A.collapse {
+	POSITION: absolute; TEXT-INDENT: -99999px; WIDTH: 93px; BACKGROUND: url(btn_collapse.gif) no-repeat left top; 
+	HEIGHT: 27px; TOP: -27px; RIGHT: 20px
+}
+.main_image A.show {
+	BACKGROUND-POSITION: left bottom
+}
+.image_thumb {
+	FONT: 10px normal Arial, Helvetica, sans-serif;WIDTH: 159px; BACKGROUND: #f0f0f0; FLOAT: left; BORDER-TOP: #ccc 1px solid; 
+	BORDER-RIGHT: #fff 1px solid
+}
+.image_thumb IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; 
+	BACKGROUND: #fff; FLOAT: left; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 5px
+}
+.image_thumb UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; 
+	PADDING-TOP: 0px
+}
+.image_thumb UL LI {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 8px; WIDTH: 200px; PADDING-RIGHT: 5px; 
+	BACKGROUND: url(nav_a.gif) #f0f0f0 repeat-x; FLOAT: left; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #ccc 1px solid; 
+	PADDING-TOP: 4px;
+	text-align:left;
+}
+.image_thumb UL LI.hover {
+	BACKGROUND: #ddd; CURSOR: pointer
+}
+.image_thumb UL LI.active {
+	BACKGROUND: #fff; CURSOR: default
+}
+HTML .image_thumb UL LI H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1.5em; PADDING-TOP: 0px
+}
+.image_thumb UL LI .block {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 125px; PADDING-RIGHT: 0px; FLOAT: left; MARGIN-LEFT: 10px; PADDING-TOP: 0px;
+	FONT: 8px normal Arial, Helvetica, sans-serif;
+}
+.image_thumb UL LI P {
+	DISPLAY: none
+}

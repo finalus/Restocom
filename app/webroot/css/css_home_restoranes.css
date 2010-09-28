@@ -1,0 +1,235 @@
+body {
+	margin: 0;
+	padding: 0px;
+	text-align:center;
+}
+html, body, #contenedor-principal{
+	min-height: 100%;
+	height:100%;
+}
+html>body, html>body #contenedor-principal{
+height:auto;
+}
+div#contenedor-principal{
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom:50px;
+	top:0px;
+	left:25px;
+	position: absolute;
+	
+}
+div#contenedor-principal div#header{
+	background-image:url(/img/Header_1.png);
+	background-repeat:repeat-x;
+	height: 66px;
+	display:block;
+	width:100%;
+	padding:0px;
+}
+
+div#contenedor-principal div#header div.logo{
+	display:inline;
+	width: auto;
+	height:auto;
+	padding:0;
+	margin:0;
+	float:left;
+	padding:15px;
+}
+div#contenedor-principal div#header div.welcome{
+	display:inline;
+	width: auto;
+	height:auto;
+	margin:0;
+	float:right;
+	font-family:Verdana;
+	font-size:12px;
+	color:#fff;
+	text-align:right;
+	padding:15px;
+}
+div#contenedor-principal div#header div.welcome a{
+	color:#fff;
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+div#contenedor-principal div#header div.welcome a:hover{
+	color:#fff;
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+div#contenedor-principal div#menuHTML{
+	background-image:url(/img/Header_2.png);
+	background-repeat:repeat;
+	height:33px;
+	width:100%;
+	font-family:Verdana;
+	font-size:11px;
+	color:#ffffff;
+	vertical-align:middle;
+	padding: 4px 0px 4px 0px;
+}
+div#contenedor-principal div#menuHTML ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:block;
+}
+div#contenedor-principal div#menuHTML li{
+	display:inline;
+	float:left;
+	padding: 5px 20px 0px 20px;
+	height:26px;
+}
+div#contenedor-principal div#menuHTML li a{
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+	padding: 4px 10px 15px 16px;
+	height:26px;
+	cursor:pointer;
+	vertical-align:middle;
+}
+div#contenedor-principal div#menuHTML li a:hover{
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+	background-image:url(/img/btn_botonera_izq.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	cursor:pointer;
+	padding: 4px 10px 15px 16px; 
+	vertical-align:middle;
+	height:26px;
+}
+div#contenedor-principal div#menuHTML li a:hover span{
+	background-image:url(/img/btn_botonera_der.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	cursor:pointer;
+	padding: 4px 10px 8px 0px; 
+}
+div#contenedor-principal div#menuHTML li a span{
+	padding: 4px 10px 8px 0px; 
+	cursor:pointer;
+}
+div#footer{
+	background-image:url(/img/Footer.png);
+	background-repeat:repeat-x;
+	background-position:top;
+	height:28px;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:12px;
+	text-align:center;
+	padding:0px;
+	padding-top:10px;
+	width:960px;
+	bottom: 0;
+	position:absolute;
+	left:0px;
+}
+div#footer a{
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:12px;
+	text-decoration:none;
+}
+div#footer a:hover{
+	font-family:Verdana;
+	font-size:12px;
+	color:#ffffff;
+	text-decoration:underline;
+}
+.contenido {
+	width:800px;
+	padding: 20px 40px 0px 120px;
+	height:auto;
+	text-align:center;
+	margin-bottom:3em;
+}
+.caja{
+	padding-top:5px;
+	margin:0;
+	width: 143px;
+	height:199px;
+	text-align:center;
+	cursor:pointer;
+}
+.cajaOver{
+	padding-top:5px;
+	margin:0;
+	background-image:url(/img/btn_over.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	width: 143px;
+	height:199px;
+	text-align:center;
+	cursor:pointer;
+}
+span.cont{
+	background-image:url(/img/btn_botonera_izq.png);
+	background-repeat:no-repeat;
+	background-position:left top;/**/
+	padding:0px 0px 8px 16px;
+	text-align:center;
+	margin:0px;
+	height:26px;
+}
+span.link{
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:12px;
+	color:#fff;
+	background-image:url(/img/btn_botonera_der.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	padding:3px 16px 10px 0px;
+	text-align:left;
+	margin:0px;
+	height:26px;
+}
+span.link2{
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:9px;
+	color:#fff;
+	background-image:url(/img/btn_botonera_der.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	padding:5px 13px 10px 0px;
+	margin:0px;
+	text-align:left;
+}
+span.cont2{
+	background-image:url(/img/btn_botonera_izq.png);
+	background-repeat:no-repeat;
+	background-position:left top;/**/
+	padding:0px 0px 8px 13px;
+	margin:0px;
+	text-align:center;
+}
+.texto{
+	padding-left:8px;
+	padding-right:8px;
+	
+	display:block;
+	text-align:center;
+}
+.content{
+	width:150px;
+	height:200px;
+	padding:15px 15px 0px 15px;
+	float:left;
+	margin:0;
+}
+

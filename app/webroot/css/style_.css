@@ -1,0 +1,121 @@
+
+a.slide:link, a.slide:visited, a.control:link, a.control:visited {
+color : #fff;
+text-decoration : none;
+}
+a.slide img {
+border : 0;
+}
+div.wrap {
+width : 960px;
+margin : 0;
+text-align : left;
+}
+div#top div#nav {
+float : left;
+clear : both;
+width : 960px;
+height : 52px;
+margin : 22px 0 0;
+}
+div#top div#nav ul {
+float : left;
+width : 700px;
+height : 52px;
+list-style-type : none;
+}
+div#nav ul li {
+float : left;
+height : 52px;
+}
+div#nav ul li a {
+border : 0;
+height : 52px;
+display : block;
+line-height : 52px;
+text-indent : -9999px;
+}
+div#header {
+margin : 0px;
+}
+div#video-header {
+height : 683px;
+margin : -1px 0 0;
+}
+div#header div.wrap {
+width : 960px;
+margin : 0 auto;
+text-align : left;
+}
+div#header div#slide-holder {
+z-index : 40;
+width : 960px;
+height : 200px;
+position : absolute;
+}
+div#header div#slide-holder div#slide-runner {
+top : 0px;
+left : 0px;
+width : 960px;
+height : 200px;
+overflow : hidden;
+position : absolute;
+}
+div#header div#slide-holder img {
+margin : 0px;
+display : none;
+position : absolute;
+border:none;
+}
+div#header div#slide-holder div#slide-controls {
+left : 0;
+bottom : 0px;
+width : 960px;
+height : 46px;
+display : none;
+position : absolute;
+}
+div#header div#slide-holder div#slide-controls p.text {
+float : left;
+color : #fff;
+display : inline;
+font-size : 10px;
+line-height : 16px;
+margin : 0px;
+text-transform : uppercase;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav {
+float : right;
+height : 24px;
+display : inline;
+margin : 22px 0px 0 0;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a {
+float : left;
+width : 24px;
+height : 24px;
+display : inline;
+font-size : 11px;
+margin : 0 0px 0 0;
+line-height : 24px;
+font-weight : bold;
+text-align : center;
+text-decoration : none;
+background-position : 0 0;
+background-repeat : no-repeat;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a.on {
+background-color :#ffffff;
+font-family:"Trebuchet MS";
+font-size:19px;
+color:#048ad3;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a {
+background : none;
+font-family:"Trebuchet MS";
+font-size:19px;
+color:#ffffff;
+}
+div#nav ul li a {
+background : url(images/nav.png) no-repeat;
+}
